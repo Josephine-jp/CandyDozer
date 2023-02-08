@@ -311,7 +311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277988616}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9497201, y: -3.9117086, z: -4.748256}
+  m_LocalPosition: {x: 1.9497201, y: -0.92, z: -4.748256}
   m_LocalScale: {x: 17, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 555113595}
@@ -344,6 +344,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   candyManager: {fileID: 1054946199}
   reward: 3
+  effectPrefab: {fileID: 6637539219546647411, guid: 13ef3e577b5f8284ebd346fca6fcd467, type: 3}
+  effectRotation: {x: -90, y: 0, z: 0}
 --- !u!1 &352924465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,6 +2920,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   candyManager: {fileID: 1054946199}
   reward: 0
+  effectPrefab: {fileID: 0}
+  effectRotation: {x: 0, y: 0, z: 0}
 --- !u!4 &1970081504
 Transform:
   m_ObjectHideFlags: 0
